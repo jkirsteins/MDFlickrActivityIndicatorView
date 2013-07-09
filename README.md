@@ -4,6 +4,14 @@
 
 Inspired by this [CSS3 version of Flickr Loading Animation](http://codepen.io/beau/pen/aAxDy).
 
+## What is this?
+
+This is a custom UIView descendant that mimicks the Flickr loading animation, as seen on Flickr iOS app and website. It uses CoreAnimation to achieve the animation.
+
+The code assumes that automatic reference counting (ARC) is enabled.
+
+The included demo project was created in Xcode5 (Developer Preview), targetting iOS7 beta.
+
 ## How to use it?
 
 Download the source and drag the "MDFlickrActivityIndicator" folder into your Xcode project.
