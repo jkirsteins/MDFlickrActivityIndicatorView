@@ -30,7 +30,7 @@ to stop animation.
 
 ## License
 
-Licensed under GPLv3. 
+Licensed under the BSD 2-clause license. 
 
 &copy; 2013 Jānis Kiršteins <janis@janiskirsteins.org>
     
