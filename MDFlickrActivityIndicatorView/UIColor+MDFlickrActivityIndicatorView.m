@@ -12,17 +12,17 @@
 
 @implementation UIColor (Flickr)
 
-+(UIColor*)MD_flickrBlueColor
++ (UIColor*)MD_flickrBlueColor
 {
     return UIColorFromRGB(0x1065CB);
 }
 
-+(UIColor*)MD_flickrPinkColor
++ (UIColor*)MD_flickrPinkColor
 {
     return UIColorFromRGB(0xFB007C);
 }
 
-+(UIColor*)MD_flickrGrayColor
++ (UIColor*)MD_flickrGrayColor
 {
     return UIColorFromRGB(0x2E302D);
 }

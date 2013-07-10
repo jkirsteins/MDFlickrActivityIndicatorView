@@ -14,6 +14,21 @@
 
 @implementation MDViewController
 
+- (IBAction)toggleHideWhenStopped:(id)sender {
+    UIButton *btnSender = (UIButton*)sender;
+    
+    if ([[btnSender titleForState:UIControlStateNormal] isEqualToString:@"Hide when stopped"])
+    {
+        self.spinner.hidesWhenStopped = YES;
+        [btnSender setTitle:@"Show when stopped" forState:UIControlStateNormal];
+    }
+    else
+    {
+        self.spinner.hidesWhenStopped = NO;
+        [btnSender setTitle:@"Hide when stopped" forState:UIControlStateNormal];
+    }
+}
+
 - (IBAction)animationButtonTapped:(id)sender {
     if([self.spinner isAnimating])
     {
